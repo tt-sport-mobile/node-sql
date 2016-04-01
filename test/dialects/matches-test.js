@@ -3,7 +3,7 @@
 var Harness = require('./support');
 var post = Harness.definePostTable();
 var customerAlias = Harness.defineCustomerAliasTable();
-var sql = require(__dirname + '/../../lib').setDialect('postgres');
+var sql = require('./../../lib').setDialect('postgres');
 
 //Postgres needs the to_tsquery function to use with @@ operator
 Harness.test({

@@ -1,7 +1,7 @@
 'use strict';
 var assert = require('assert');
 
-var sql = require(__dirname + '/../lib').setDialect('postgres');
+var sql = require('./../lib').setDialect('postgres');
 
 var user = sql.define({
   name: 'user',

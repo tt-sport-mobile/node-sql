@@ -1,6 +1,6 @@
 'use strict';
 
-var Table = require(__dirname + '/../../lib/table');
+var Table = require('./../../lib/table');
 var Harness = require('./support');
 
 var group = Table.define({

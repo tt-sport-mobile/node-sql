@@ -1,8 +1,8 @@
 'use strict';
 
 var assert = require('assert');
-var valueExpressionMixin = require(__dirname + './../lib/node/valueExpression');
-var Node = require(__dirname + './../lib/node');
+var valueExpressionMixin = require('./../lib/node/valueExpression');
+var Node = require('./../lib/node');
 
 suite('value-expression', function() {
   test("value expression mixin should not overwrite Node prototype properties", function() {

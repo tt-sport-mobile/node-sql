@@ -1,7 +1,7 @@
 'use strict';
 
 var Harness = require('./support');
-var Table = require(__dirname + '/../../lib/table');
+var Table = require('./../../lib/table');
 
 var userWithSchema = Table.define({
   schema: 'staging',

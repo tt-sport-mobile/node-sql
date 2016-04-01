@@ -84,11 +84,11 @@ suite('index', function() {
     var sqlite = new Sql('sqlite');
     var oracle = new Sql('oracle');
 
-    assert.equal(mysql.dialect, require(__dirname + '/../lib/dialect/mysql'));
-    assert.equal(postgres.dialect, require(__dirname + '/../lib/dialect/postgres'));
-    assert.equal(sqlite.dialect, require(__dirname + '/../lib/dialect/sqlite'));
-    assert.equal(mssql.dialect, require(__dirname + '/../lib/dialect/mssql'));
-    assert.equal(oracle.dialect, require(__dirname + '/../lib/dialect/oracle'));
+    assert.equal(mysql.dialect, require('./../lib/dialect/mysql'));
+    assert.equal(postgres.dialect, require('./../lib/dialect/postgres'));
+    assert.equal(sqlite.dialect, require('./../lib/dialect/sqlite'));
+    assert.equal(mssql.dialect, require('./../lib/dialect/mssql'));
+    assert.equal(oracle.dialect, require('./../lib/dialect/oracle'));
   });
 
   test('override dialect for toQuery using dialect name', function() {

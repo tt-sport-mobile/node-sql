@@ -1,5 +1,5 @@
 'use strict';
-var sql = require(__dirname + '/../../lib');
+var sql = require('./../../lib');
 
 var Harness = require('./support');
 

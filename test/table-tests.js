@@ -1,8 +1,8 @@
 'use strict';
 var assert = require('assert');
 
-var Table = require(__dirname + '/../lib/table');
-var Column = require(__dirname + '/../lib/column');
+var Table = require('./../lib/table');
+var Column = require('./../lib/column');
 var Sql = require('../');
 
 suite('table', function() {

@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var Select = require(__dirname + '/../lib/node/select');
+var Select = require('./../lib/node/select');
 
 var select = new Select({sql: require('../lib/index')});
 

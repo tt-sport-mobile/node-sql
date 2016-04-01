@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 
-var Node = require(__dirname + '/../lib/node/');
+var Node = require('./../lib/node/');
 
 var Bang = Node.define({
   type: 'SELECT'

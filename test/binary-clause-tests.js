@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var Table = require(__dirname + '/../lib/table');
+var Table = require('./../lib/table');
 
 var Foo = Table.define({
   name: 'foo',
